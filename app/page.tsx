@@ -20,7 +20,7 @@ export default function Home() {
 
           <Modal className='SomeModal w-[500px] h-[400px]' open={openModal} onClose={() => { setOpenModal(false) }}>
             <Modal.Title closeModal={() => { setOpenModal(false) }}>
-              Modal Title
+              Iframe Modal
             </Modal.Title>
             <Modal.Content>
               <Frame />
@@ -34,7 +34,7 @@ export default function Home() {
 
           <Modal className='SomeModal w-[500px] h-[400px]' open={openForm} onClose={() => { setOpenForm(false) }}>
             <Modal.Title closeModal={() => { setOpenForm(false) }}>
-              Modal Title
+              Simple Form
             </Modal.Title>
             <Modal.Content>
               <Form closeModal={() => { setOpenForm(false) }} />

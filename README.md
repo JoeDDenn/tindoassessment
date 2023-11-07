@@ -2,19 +2,19 @@ This is a simple Task showcasing a modal compound component.
 
 ## To use the component
 
-    simply import component
+simply import component
 
 ```javascript
 import { Modal } from "./components/Modal";
 ```
 
-    create a state for managing if the component is open and closing it
+create a state for managing modal visibility
 
 ```javascript
 const [openModal, setOpenModal] = useState(false);
 ```
 
-    then use the component like so
+then use the component like so
 
 ```javascript
 <Modal
