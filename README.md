@@ -18,6 +18,7 @@ then use the component like so
 
 ```javascript
 <Modal
+  //Side note: you can include any style customizations through the classNames added to the modal component.
   className="anyRequiredClasses w-[500px] h-[400px]"
   open={openModal}
   onClose={() => {

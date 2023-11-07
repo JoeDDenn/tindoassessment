@@ -10,8 +10,6 @@ interface ModalProps {
 function Modal({ children, className, open, onClose, ...props }: ModalProps) {
     const modalRef = useRef<HTMLDialogElement>(null)
 
-
-
     useLayoutEffect(() => {
         if (open && !modalRef.current?.open) {
             //close modal if user clicks outside modal
